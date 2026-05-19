@@ -1,0 +1,43 @@
+import math
+
+class HostLayer:
+    def __init__(self, max_capacity=1000000):
+        self.v_log = 1.0
+        self.v_max_capacity = max_capacity
+        self.nu_max = 300000.0
+        self.alpha = 0.01
+        self.h_0 = 1e-34
+        self.beta = 0.1
+        self.g_0 = 6.674e-11
+        self.gamma = 0.5
+
+    def append_registry(self, transaction_count):
+        self.v_log += transaction_count
+        if self.v_log >= self.v_max_capacity:
+            self.v_log = self.v_max_capacity
+
+    def get_runtime_constants(self):
+        c = self.nu_max / (1.0 + self.alpha * math.log(self.v_log))
+        h = self.h_0 * math.pow((self.v_log / 1.0), self.beta)
+        
+        load_factor = self.v_log / self.v_max_capacity
+        g = self.g_0 * math.exp(self.gamma * load_factor)
+        
+        ell_p = math.sqrt((h * g) / math.pow(c, 3))
+        
+        return {
+            "v_log": round(self.v_log, 1),
+            "c": round(c, 2),
+            "h": f"{h:.2e}",
+            "g": f"{g:.2e}",
+            "ell_p": f"{ell_p:.2e}"
+        }
+
+if __name__ == "__main__":
+    host = HostLayer()
+    stages = [1, 9, 990, 99000, 800000]
+    
+    for count in stages:
+        host.append_registry(count)
+        state = host.get_runtime_constants()
+        print(f"V_log: {state['v_log']:<10} | c: {state['c']:<10} | h: {state['h']:<10} | G: {state['g']:<10} | lp: {state['ell_p']}")
