@@ -1,0 +1,42 @@
+import math
+
+class HostLayer:
+    def __init__(self, alpha_0=0.007297, h_0=6.626e-34, G_0=6.674e-11, max_capacity=1e15):
+        self.alpha_0 = alpha_0
+        self.h_0 = h_0
+        self.G_0 = G_0
+        self.max_capacity = max_capacity
+        self.v_log = 1.0
+        self.nu_max = 3e18
+
+    def append_registry(self, transaction_count):
+        if transaction_count <= 0:
+            return
+        self.v_log += float(transaction_count)
+
+    def get_runtime_constants(self):
+        load_factor = self.v_log / self.max_capacity
+        if load_factor > 1.0:
+            load_factor = 1.0
+
+        if self.v_log <= 1.0:
+            c = self.nu_max
+        else:
+            c = self.nu_max / (1.0 + self.alpha_0 * math.log(self.v_log))
+
+        h = self.h_0 * (1.0 + 0.05 * load_factor)
+        G = self.G_0 * (1.0 + 0.1 * load_factor)
+
+        if c <= 0:
+            ell_p = float('inf')
+        else:
+            ell_p = math.sqrt((h * G) / math.pow(c, 3))
+
+        return {
+            "v_log": self.v_log,
+            "load_factor": load_factor,
+            "c": c,
+            "h": h,
+            "G": G,
+            "ell_p": ell_p
+        }
