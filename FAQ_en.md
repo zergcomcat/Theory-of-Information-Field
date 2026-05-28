@@ -1,7 +1,5 @@
 # Theory of Information Field (TIF) — Technical FAQ
 
-This repository contains the core runtime engine simulation of the Theory of Information Field (TIF). TIF is a systems analysis framework that conceptualizes physical reality through the prism of Computer Science and database architecture.
-
 The architecture operates on a strict, unidirectional e2e legitimate chain:
 $$\text{Information} \longrightarrow \text{Logic} \longrightarrow \text{Mathematics}$$
 
