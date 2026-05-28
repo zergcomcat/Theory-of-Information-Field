@@ -31,11 +31,3 @@ TIF eliminates the need for inventing five times more invisible matter. Dark Mat
 
 ### Q6: What is the objective status quo of TIF before academic physics?
 TIF is not a predictive physical theory for calculating particle weights. It does not replace or compete with Quantum Electrodynamics (QED) or General Relativity (GR). Classical science acts as the **applied application software** studying the pixel rules inside the compiled interface (GUI). TIF describes the **Meta-Architecture of the engine** that compiles physical laws in the first place.
-
----
-
-## 🛠 Running the Simulation
-To execute the core engine simulation of the Host Layer, dynamic plateau, and deadlock states:
-```bash
-python3 main.py
-```
