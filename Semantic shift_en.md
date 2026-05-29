@@ -1,3 +1,5 @@
+> **Important Methodological Note:** What classical materialists might dismiss as "virtual simulation nonsense" is, within the TIF framework, a rigorous axiomatic quantum-information model of the Universe. It describes objective physical reality not through the prism of imaginary material objects, but through the fundamental laws of data conservation, fixation, and metric optimization.
+
 # Semantic Shift of TIF: Isomorphism of Terms
 ## Direct Mapping of Systems Architecture to Theoretical Physics
 
