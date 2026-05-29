@@ -1,22 +1,46 @@
-# Theory of Information Field (TIF) — Official FAQ
-## Answers to Fundamental Questions of Quantum Cosmology
+# Semantic Shift of TIF: Isomorphism of Terms
+## Direct Mapping of Systems Architecture to Theoretical Physics
 
-### Q1: What is the ontological status of "The Field" in TIF?
-**ANSWER:** The Field is pure information in its primordial form. It is not a material medium, ether, or physical space. The term "Field" is used solely for the convenience of human perception, denoting a dimensionless potential capacity in which acts of distinction (information outcomes) are recorded.
+This document explains the essence of the semantic shift (re-labeling of concepts) within the Theory of Information Field, directly mapping the backend IT abstractions into the rigorous language of academic science. Changing the terminology does not alter the mathematical logic of the core engine.
 
-### Q2: How does the theory explain the stability of physical constants?
-**ANSWER:** Stability is ensured by the colossal volume of the already accumulated discrete spacetime track (WORM log). The Cosmological Metric Evolution Coefficient (`Load Factor`), calculated as the ratio `v_log / v_max_capacity`, has reached an asymptotic maximum in current history. The system resides on a strict **dynamic plateau**; therefore, local fluctuations of information cannot shift the universal constants ($c, h, G$), making them appear perfectly static to the observer.
+---
 
-### Q3: What is Wave-Particle Duality from the perspective of TIF?
-**ANSWER:** It is a manifestation of fundamental polymorphism and the principle of computational economy.
-*   **Wave Mode (Superposition / Lazy Evaluation):** If the observer (Anthropic Horizon) does not request data, the system does not waste cycles calculating the exact coordinates of a cell, holding it in a `True NULL` state (a probability cloud).
-*   **Particle Mode (Wave Function Collapse):** Upon direct measurement, the fixation function is invoked, and the data instantly crystallizes into a specific hash (particle) on the interface screen.
+### 1. Fundamental Basis (Layer 0)
+*   **IT Term:** Layer 0 / The Field / Addressless topology.
+*   **Physical Equivalent:** Quantum-information basis / Pure potential / Pregeometry.
+*   **Essence of the Shift:** Rejection of material space. The medium is defined as a dimensionless abstract capacity, which serves as the source of potential distinctions prior to the emergence of physical coordinates.
 
-### Q4: How does TIF resolve the Dark Matter problem?
-**ANSWER:** TIF completely eliminates the need to introduce hypothetical unseen particles. The effect of "excess gravity" at galactic fringes is a consequence of batch metric processing. In zones of anomalously high density of the archived data stack, the system optimizes paths of least action, compressing the coordinate grid to save computational cycles. Astronomers observe the result of this optimization and mistakenly interpret it as the presence of hidden mass.
+### 2. State of Uncertainty
+*   **IT Term:** True NULL / Empty memory cell.
+*   **Physical Equivalent:** Quantum superposition / Unmanifested quantum state.
+*   **Essence of the Shift:** The total absence of physical parameters (mass, charge, coordinates) prior to interaction is recognized as a physical emptiness of the cell. Variables are not "hidden"; they are fundamentally non-existent in the system's memory until the measurement procedure is invoked.
 
-### Q5: What happens inside a Black Hole?
-**ANSWER:** A local spatial deadlock occurs (`I/O Deadlock`). Due to the extreme density of cross-transactions at a single coordinate, the metric calculation algorithm enters an infinite loop. To protect the integrity of the rest of the Universe from a cascade failure, the Host isolates this sector. At the isolation boundary (Event Horizon), the interface UI thread freezes, and a core kernel error is recorded at the point of failure (Singularity). Meanwhile, Hawking Radiation is the process of continuous WORM record fixation at the boundary of this deadlock.
+### 3. Act of Quantum Measurement
+*   **IT Term:** Database request / Invocation of the rendering function.
+*   **Physical Equivalent:** Quantum measurement / Wave function collapse.
+*   **Essence of the Shift:** The instantaneous transition of the system from wave (probabilistic) mode to corpuscular (discrete) mode at the final point of measurement is an algorithmic transition from lazy evaluation (*Lazy Evaluation*) to the fixation of the final hash.
 
-### Q6: Is TIF a "Simulation" concept like the Matrix?
-**ANSWER:** No. The concept of simulation implies the existence of a material computer plugged into a socket in some "more real" Universe, leading to an infinite regress. TIF asserts that there is no matter or hardware to begin with. There is only Information, the Logic of its consistency, and the Mathematics of its rendering. The Universe is not a simulation running on a computer; the Universe is the self-computing code itself.
+### 4. Causality Principle and the Arrow of Time
+*   **IT Term:** Append-Only WORM Log (Write Once, Read Many).
+*   **Physical Equivalent:** Discrete spacetime track / Immutable continuum of micro-singularities.
+*   **Essence of the Shift:** Time and entropy are redefined as the continuous growth of fixed, immutable rows of data. The past is hardware-locked with a *Read Only* flag, which completely prevents any violation of causal relationships.
+
+### 5. Observer Limitation
+*   **IT Term:** Isolated Guest OS / Computational blindness.
+*   **Physical Equivalent:** Anthropic epistemological horizon / Quantum uncertainty principle.
+*   **Essence of the Shift:** The limitation of the human mind and instruments is treated as hardware context isolation inside a hypervisor. An observer within the "virtual machine" physically cannot gain root access to the global state of the Host.
+
+### 6. Gravitational Effects
+*   **IT Term:** Batch metric processing / Optimization of large graph rendering.
+*   **Physical Equivalent:** Gravitational attraction / Spacetime curvature.
+*   **Essence of the Shift:** Mass is an anomalously high density of the archived WORM data stack. Instead of calculating links with trillions of points individually, the system compresses the coordinate grid along the path of least computational cost. This renders Dark Matter and Dark Energy hypotheses redundant.
+
+### 7. Collapse and Black Holes
+*   **IT Term:** Critical I/O Deadlock / Infinite Loop / Frozen UI thread.
+*   **Physical Equivalent:** Gravitational collapse / Singularity / Event horizon.
+*   **Essence of the Shift:** A black hole is a local algorithmic deadlock in the metric calculation caused by extreme transaction density. The interface "folds" at this coordinate to protect the database from a cascade failure, freezing the UI thread (event horizon) around a core kernel error (singularity).
+
+### 8. Evolution of Constants
+*   **IT Term:** Load Factor (v_log / v_max_capacity).
+*   **Physical Equivalent:** Cosmological metric evolution coefficient.
+*   **Essence of the Shift:** Universal constants ($c, h, G$) and the step of Planck length are calculated from the ratio of already fixed events to the total capacity of the Universe domain. The growth of the log has brought the system to a strict dynamic plateau, stabilizing the parameters of the physical world.
